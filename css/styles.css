@@ -122,6 +122,7 @@ a {
 
 .hero-banner {
   text-align: center;
+  padding: 188px 0;
 }
 
 .page-title {
@@ -130,8 +131,7 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
-  width: 496px;
-  padding-top: 188px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -145,11 +145,14 @@ a {
   color: #fff;
   cursor: pointer;
   padding: 16px 32px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 48px;
-  margin-bottom: 188px;
+  min-width: 169px;
+  height: 56px;
   border: none;
+  border-radius: 4px;
 }
 
 .hero-banner-btn:hover,
