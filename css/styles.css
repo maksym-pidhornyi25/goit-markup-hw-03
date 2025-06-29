@@ -120,7 +120,7 @@ a {
   background-color: #2e2f42;
 }
 
-.hero-banner {
+.conteiner-hero-banner {
   text-align: center;
   padding: 188px 0;
 }
@@ -162,12 +162,21 @@ a {
 
 /* benefits */
 
-.benefits {
+.conteiner-benefits {
   padding: 120px 0;
 }
 
-.benefits-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(100%);
 }
 
 .container .benefits-list {
