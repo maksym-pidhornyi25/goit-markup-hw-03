@@ -162,6 +162,10 @@ a {
 
 /* benefits */
 
+.benefits {
+  padding: 120px 0;
+}
+
 .benefits-title {
   visibility: hidden;
 }
@@ -169,12 +173,10 @@ a {
 .container .benefits-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .benefits-list-item {
-  width: calc((100% - 72) / 3);
+  width: calc((100% - 72) / 4);
 }
 
 .benefits-subtitle {
@@ -183,7 +185,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .benefits-descr {
