@@ -217,7 +217,7 @@ img {
 }
 
 .team-members-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -323,10 +323,13 @@ img {
   padding: 100px 0;
 }
 
-.footer-logo .logo-part {
-  color: #f4f4fd;
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .footer-descr {
